@@ -29,6 +29,323 @@ a {
 button {
   border: none;
 }
+.container {
+  max-width: 1600px;
+}
+.containerSmall {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.sectionTop {
+  align-items: end;
+}
+.sectionHeading {
+  color: #181a20;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.sectionDesc {
+  color: #717171;
+  font-size: 14px;
+  line-height: 26.6px;
+  padding-top: 7px;
+}
+
+.sectionLink {
+  display: flex;
+  justify-content: end;
+}
+.sectionLink a {
+  color: #181a20;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28.5px;
+  padding-right: 7px;
+  text-align: right;
+}
 /* All common css ends */
+
+/* Header Section Starts */
+#header {
+  padding: 15px 0;
+}
+
+.navLinkContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin: 0 8px;
+  transition: all 0.3s;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26.6px;
+  color: #000;
+}
+
+.navRect {
+  width: 8px;
+  height: 4px;
+  background: #000;
+  transition: all 0.3s;
+}
+
+.navLinkContainer:hover .navRect {
+  margin-left: 10px;
+}
+
+.navLinkContainer:hover .nav-link {
+  color: #000;
+}
+
+.headerRight {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.headerRightItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerRightItem i,
+.headerRightItem p,
+.headerRightItem a {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.addProp {
+  padding: 10px 29px;
+  border: 1px solid #000;
+  border-radius: 55px;
+  transition: all 0.3s;
+}
+
+.addProp:hover {
+  background: #000;
+  color: #fff;
+
+  .fa-arrow-up {
+    background: #000;
+    color: #fff;
+  }
+}
+
+.fa-arrow-up {
+  transform: rotate(35deg);
+  margin-left: 5px;
+  transition: all 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.hamBurgerMenu .top,
+.hamBurgerMenu .bottom {
+  height: 2px;
+  background: #000;
+}
+
+.hamBurgerMenu .top {
+  width: 25px;
+}
+
+.hamBurgerMenu .bottom {
+  width: 20px;
+  margin-top: 8px;
+}
+
+.hamBurgerMenu .bottomContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+/* Header Section Ends */
+
+/* Banner Section Starts */
+#banner {
+  background: url(../images/bannerImg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 620px;
+  padding-bottom: 120px;
+}
+
+#banner .input-group {
+  background: #fff;
+  max-width: 976px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .input-group input {
+  border: none;
+  border-right: 1px solid #e9e9e9;
+  padding: 16px 20px;
+  max-width: 395px;
+}
+
+#banner .input-group input[placeholder] {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.bannerFormBtn {
+  padding-right: 200px;
+}
+
+.typeFilter {
+  border-right: 1px solid #e9e9e9;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter i {
+  padding-left: 45px;
+}
+
+.filter span {
+  color: #181a20;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26.6px;
+  padding-left: 15px;
+}
+
+.searchBtn {
+  margin-right: 0;
+  background: #eb6753;
+  color: #fff;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchHouse {
+  display: none;
+}
+/* Banner Section Ends */
+
+/* Featured Section Starts */
+#featured {
+  padding-top: 300px;
+}
+
+.card {
+  border-radius: 6px;
+  border: none;
+  margin-top: 50px;
+}
+
+.cardImg {
+  position: relative;
+}
+.cardImg span {
+  position: absolute;
+  left: 20px;
+}
+.featured {
+  padding: 7px 20px;
+  background: #eb6753;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 30px;
+  top: 20px;
+}
+.housePrice {
+  padding: 5px 15px;
+  background: #fff;
+  border-radius: 5px;
+  color: #181a20;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28.5px;
+  bottom: 20px;
+}
+.card-title {
+  color: #181a20;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  padding-top: 19px;
+  padding-bottom: 6px;
+  padding-left: 0;
+}
+
+.houseAddress {
+  color: #717171;
+  font-size: 13px;
+  line-height: 24.7px;
+}
+
+.card .houseDetails {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-text {
+  color: #181a20;
+  font-size: 13px;
+  line-height: 24.7px;
+}
+
+.card hr {
+  border: 1px solid #e9e9e9;
+}
+
+.myPagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding-top: 30px;
+}
+.nextCardDot {
+  width: 6px;
+  height: 6px;
+  background: #C0C0C0;
+  border-radius: 50%;
+}
+.cardPageSelected {
+  width: 8px;
+  height: 8px;
+  background: #000;
+}
+/* Featured Section Ends */
 
 

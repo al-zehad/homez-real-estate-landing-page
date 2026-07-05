@@ -22,7 +22,245 @@
 </head>
 
 <body>
+  <!-- Header Section Starts -->
+  <header id="header">
+    <nav class="navbar navbar-expand-xxl">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="./images/logo.png" alt="logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamBurgerMenu">
+            <div class="top"></div>
+            <div class="bottomContainer">
+              <div class="bottom"></div>
+            </div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="navLinkContainer">
+                <a class="nav-link" href="/">Home</a>
+                <div class="navRect"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="navLinkContainer">
+                <a class="nav-link" href="#">Listings</a>
+                <div class="navRect"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="navLinkContainer">
+                <a class="nav-link" href="#">Members</a>
+                <div class="navRect"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="navLinkContainer">
+                <a class="nav-link" href="#">Listings </a>
+                <div class="navRect"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="navLinkContainer">
+                <a class="nav-link" href="#">Blog</a>
+                <div class="navRect"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="navLinkContainer">
+                <a class="nav-link" href="#">Pages</a>
+                <div class="navRect"></div>
+              </div>
+            </li>
+          </ul>
 
+          <div class="headerRight">
+            <div class="headerRightItem">
+              <i class="fa-solid fa-phone"></i>
+              <p>+(088) 123 456 789</p>
+            </div>
+
+            <div class="headerRightItem">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">Login / Register</a>
+            </div>
+
+            <div class="headerRightItem">
+              <a href="#" class="addProp">Add Property<i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header Section Ends -->
+
+
+  <!-- Banner Section Starts -->
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button"
+              placeholder="🏠︎ Enter an address, neighborhood, city, or ZIP code">
+            <div class="typeFilter">
+              <button type="button" class="btn bannerFormBtn">Type</button>
+              <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">1BR, 1BH House</a></li>
+                <li><a class="dropdown-item" href="#">2BR, 2BH House</a></li>
+              </ul>
+            </div>
+            <div class="search">
+              <div class="filter">
+                <i class="fa-solid fa-sliders"></i>
+                <span>Advanced</span>
+              </div>
+              <a class="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="searchHouse">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button"
+              placeholder="🏠︎ Enter an address, neighborhood, city, or ZIP code">
+            <div class="typeFilter">
+              <button type="button" class="btn bannerFormBtn">Type</button>
+              <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">1BR, 1BH House</a></li>
+                <li><a class="dropdown-item" href="#">2BR, 2BH House</a></li>
+              </ul>
+              <div class="filter">
+                <i class="fa-solid fa-sliders"></i>
+                <span>Advanced</span>
+              </div>
+            </div>
+            <div class="search">
+
+              <a class="searchBtn">
+                <button>Search</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Section Ends -->
+
+
+  <!-- Featured Section Starts -->
+  <section id="featured">
+    <div class="containerSmall">
+      <div class="row sectionTop">
+        <div class="col-lg-6 col-md-6">
+          <h2 class="sectionHeading">Discover Our Featured Listings</h2>
+          <p class="sectionDesc">Aliquam lacinia diam quis lacus euismod</p>
+        </div>
+        <div class="col-lg-6 col-md-6 sectionLink">
+          <div>
+            <a href="#">See All Properties</a><i class="fa-solid fa-arrow-up"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row featuredCard">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="cardImg">
+              <span class="featured">Featured</span>
+              <span class="housePrice">$4,600</span>
+              <img src="./images/featureImgOne.png" class="card-img-top" alt="featureImgOne.png">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">House on the Hollywood</h5>
+              <span class="houseAddress">374 Johnson Ave</span>
+              <div class="houseDetails">
+                <p class="card-text">6 Beds</p>
+                <p class="card-text">2 Baths</p>
+                <p class="card-text">200 sqft</p>
+              </div>
+              <hr>
+              <p class="card-text">For Sale</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="cardImg">
+              <span class="featured">Featured</span>
+              <span class="housePrice">$5,800</span>
+              <img src="./images/featureImgTwo.png" class="card-img-top" alt="featureImgTwo.png">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Comfortable Villa Green</h5>
+              <span class="houseAddress">178 Broadway, Brooklyn</span>
+              <div class="houseDetails">
+                <p class="card-text">9 Beds</p>
+                <p class="card-text">3 Baths</p>
+                <p class="card-text">600 sqft</p>
+              </div>
+              <hr>
+              <p class="card-text">For Sale</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="cardImg">
+              <span class="featured">Featured</span>
+              <span class="housePrice">$2,500</span>
+              <img src="./images/featureImgThree.png" class="card-img-top" alt="featureImgThree.png">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Quality House For Sale</h5>
+              <span class="houseAddress">873 Bedford Ave</span>
+              <div class="houseDetails">
+                <p class="card-text">10 Beds</p>
+                <p class="card-text">2 Baths</p>
+                <p class="card-text">500 sqft</p>
+              </div>
+              <hr>
+              <p class="card-text">For Sale</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="myPagination">
+            <div class="nextCardDot cardPageSelected"></div>
+            <div class="nextCardDot"></div>
+            <div class="nextCardDot"></div>
+            <div class="nextCardDot"></div>
+            <div class="nextCardDot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Section Ends -->
 
 
   <!-- JS files Start -->
