@@ -1,0 +1,461 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Header Section Starts */
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerRight {
+    flex-direction: column;
+  }
+  /* Header Section Ends */
+
+  /* Banner Section Starts */
+  #banner {
+    padding: 120px 0;
+  }
+  #banner .input-group {
+    display: none;
+  }
+  .searchHouse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .searchHouse input {
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+  .bannerFormBtn {
+    padding-right: 50px;
+  }
+  .typeFilter {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .searchBtn {
+    background: transparent;
+  }
+  .searchBtn button {
+    padding: 10px 30px;
+    background: #eb6753;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /* Banner Section Ends */
+
+  /* Featured Section Starts */
+  #featured {
+    padding-top: 70px;
+  }
+  .sectionTop {
+    text-align: center;
+  }
+  .sectionDesc {
+    padding: 10px 0;
+  }
+  .sectionLink {
+    justify-content: center;
+  }
+  /* Featured Section Ends */
+
+  /* Cities Section Starts */
+  #cities {
+    padding: 70px 0;
+  }
+  .cardContainer {
+    justify-content: center;
+  }
+  /* Cities Section Ends */
+
+  /* Help Section Starts */
+  #help .container {
+    padding: 70px 0;
+  }
+  /* Help Section Ends */
+
+  /* Dream Home Section Starts */
+  .dreamHomeContent {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  /* Dream Home Section Ends */
+
+  /* Testimonial Section Starts */
+  #testimonial .container {
+    padding: 60px 0;
+  }
+  .testimonialImg {
+    gap: 10px;
+  }
+  /* Testimonial Section Ends */
+
+  /* Agents Section Starts */
+  #agents {
+    padding: 70px 0;
+  }
+  .agentCardItem {
+    text-align: center;
+  }
+  /* Agents Section Ends */
+
+  /* Brand Section Starts */
+  .logoContainer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .brandLogo {
+    padding-bottom: 50px;
+  }
+  /* Brand Section Ends */
+
+  /* CTA Section Starts */
+
+  #cta .container {
+    background-position: bottom right;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+  }
+  #cta .sectionHeading {
+    margin: 0 auto;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 12px;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  /* CTA Section Ends */
+
+  /* Footer Section Starts */
+  #footer {
+    text-align: center;
+    padding-top: 70px;
+  }
+  .contactInfo {
+    padding-top: 20px;
+    justify-content: center;
+  }
+  #footer label {
+    padding-top: 70px;
+  }
+  .storeCard {
+    justify-content: center;
+  }
+  .socialLinks {
+    justify-content: center;
+  }
+  .footerLinks {
+    text-align: left;
+  }
+  .footerLinkLeft,
+  .footerLinkRight {
+    justify-content: center;
+  }
+  .footerLinkRight {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .copyRight {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  #footer hr {
+    margin-top: 30px;
+  }
+  /* Footer Section Ends */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header Section Starts */
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerRight {
+    flex-direction: column;
+  }
+  #banner .input-group {
+    display: none;
+  }
+  .searchHouse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .searchHouse input {
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+  .bannerFormBtn {
+    padding-right: 50px;
+  }
+  .typeFilter {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .searchBtn {
+    background: transparent;
+  }
+  .searchBtn button {
+    padding: 10px 30px;
+    background: #eb6753;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /* Header Section Ends */
+
+  /* Featured Section Starts */
+  #featured {
+    padding-top: 70px;
+  }
+  .sectionTop {
+    text-align: center;
+  }
+  .sectionDesc {
+    padding: 10px 0;
+  }
+  .sectionLink {
+    justify-content: center;
+  }
+  /* Featured Section Ends */
+
+  .cardContainer {
+    justify-content: center;
+  }
+  /* Dream Home Section Starts */
+  .dreamHomeContent {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  /* Dream Home Section Ends */
+
+  /* Agents Section Starts */
+  #agents {
+    padding: 70px 0;
+  }
+  .agentCardItem {
+    text-align: center;
+  }
+  /* Agents Section Ends */
+
+ /* Brand Section Starts */
+  .logoContainer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .brandLogo {
+    padding-bottom: 50px;
+  }
+  /* Brand Section Ends */
+
+  /* CTA Section Starts */
+
+  #cta .container {
+    background-position: bottom right;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+  }
+  #cta .sectionHeading {
+    margin: 0 auto;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 12px;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  /* CTA Section Ends */
+
+  /* Footer Section Starts */
+  #footer {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .contactInfo {
+    padding-top: 20px;
+    justify-content: center;
+  }
+  #footer label {
+    padding-top: 70px;
+  }
+  .storeCard {
+    justify-content: center;
+  }
+  .socialLinks {
+    justify-content: center;
+  }
+  .footerLinks {
+    text-align: left;
+  }
+  .footerLinkLeft,
+  .footerLinkRight {
+    justify-content: center;
+  }
+  .footerLinkRight {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .copyRight {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  #footer hr {
+    margin-top: 30px;
+  }
+  /* Footer Section Ends */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header Section Starts */
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerRight {
+    flex-direction: column;
+  }
+  /* Header Section Ends */
+  .cardContainer {
+    justify-content: center;
+  }
+
+  .dreamHomeContent {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .agentCardItem {
+    text-align: center;
+  }
+
+  /* Brand Section Starts */
+  .logoContainer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .brandLogo {
+    padding-bottom: 50px;
+  }
+  /* Brand Section Ends */
+
+  /* CTA Section Starts */
+
+  #cta .container {
+    background-position: bottom right;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+  }
+  #cta .sectionHeading {
+    margin: 0 auto;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 12px;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  /* CTA Section Ends */
+  /* Footer Section Starts */
+  #footer {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .contactInfo {
+    padding-top: 50px;
+    justify-content: center;
+  }
+  #footer label {
+    padding-top: 70px;
+  }
+  .storeCard {
+    justify-content: center;
+  }
+  .socialLinks {
+    justify-content: center;
+  }
+  .footerLinks {
+    text-align: left;
+    padding-top: 40px;
+  }
+  .footerLinkLeft,
+  .footerLinkRight {
+    justify-content: center;
+  }
+  .copyRight {
+    justify-content: center;
+  }
+  #footer hr {
+    margin-top: 30px;
+  }
+  /* Footer Section Ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Header Section Starts */
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerRight {
+    flex-direction: column;
+  }
+  /* Header Section Ends */
+}
+@media (min-width: 992px) and (max-width: 1392px) {
+  #cta .col-12 {
+    padding-left: 30px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Header Section Starts */
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  .headerRight {
+    flex-direction: column;
+  }
+  /* Header Section Ends */
+}
