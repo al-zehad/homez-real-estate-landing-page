@@ -348,4 +348,248 @@ button {
 }
 /* Featured Section Ends */
 
+/* Cities Section Starts */
+#cities {
+  padding: 121px 0;
+}
+.cardContainer {
+  justify-content: space-between;
+}
+#cities .card {
+  max-width: 270px;
+}
+#cities .card-img-top {
+  border-radius: 5px;
+  max-width: 270px;
+  height: 270px;
+}
+#cities .card-title {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #181A20;
+}
+#cities .card-text {
+  padding-top: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.7px;
+  color: #181A20;
+}
+/* Cities Section Ends */
 
+/* Help Section Starts */
+#help .container {
+  background: #FDF0EE;
+  padding: 115px 0;
+  text-align: center;
+}
+.helpCard {
+  justify-content: space-between;
+}
+.helpCard .card {
+  padding-bottom: 20px;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.helpCard .card:hover {
+  box-shadow: 0 10px 40px 0 rgba(24, 26, 32, 0.06);
+}
+.helpCard .card-img-top {
+  padding: 20px;
+}
+.helpCard .card-title {
+  color: #181A20;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.helpCard .card-text {
+  color: #181A20;
+  font-size: 14px;
+  line-height: 26.6px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.helpCard .btn {
+  color: #eb6753;
+  padding: 20px 30px;
+  border: 1px solid #EB6753;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+  transition: all 0.3s;
+}
+.helpCard .btn:hover {
+  background: #EB6753;
+  color: #fff;
+}
+/* Help Section Ends */
+
+/* Dream Home Section Starts */
+#dreamHome {
+  padding: 115px 0;
+}
+#dreamHome .row {
+  align-items: center;
+}
+.dreamHomeImg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.watchVideo {
+  padding: 21px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 50px 0 rgba(24, 26, 32, 0.07);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  right: 0;
+  top: 89px;
+}
+.watchVid {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #181A20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watchVid i {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background: #181A20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.watchVid h6 {
+  color: #181A20;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+}
+.aptCard {
+  padding: 21px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 50px 0 rgba(24, 26, 32, 0.07);
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+.aptCard p {
+  color: #6c757d;
+  padding: 20px 0;
+}
+.aptDetailsContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.aptDetails {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.aptCardLink a {
+  color: #181A20;
+  font-size: 20px;
+  font-weight: 500;
+}
+.dreamHomeContent {
+  display: flex;
+  justify-content: end;
+}
+.dreamHomeContent h2 {
+  color: #181A20;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  max-width: 370px;
+}
+.dreamHomeContent p {
+  color: #181A20;
+  font-size: 14px;
+  line-height: 26.6px;
+  max-width: 353px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.homeDetails h4 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 42px;
+}
+.homeDetails p {
+  font-size: 14px;
+  line-height: 35px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.dreamHomeContent a {
+  background: #eb6753;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 15px;
+}
+.dreamHomeContent a i {
+  color: #fff;
+}
+/* Dream Home Section Ends */
+
+/* Testimonial Section Starts */
+#testimonial {
+  text-align: center;
+}
+#testimonial .container {
+  padding: 115px 0;
+  background: #F7F7F7;
+  border-radius: 12px;
+}
+#testimonial .sectionDesc {
+  padding-bottom: 52px;
+}
+.fa-quote-left {
+  color: #6c757d59;
+  font-size: 60px;
+}
+.reviewText {
+  max-width: 729px;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 44px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+#testimonial h6 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.testimonialRole {
+  font-size: 13px;
+  line-height: 24.7px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.testimonialImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+/* Testimonial Section Ends */
